@@ -1,0 +1,88 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+.stairbox {
+     color: rgb(249, 252, 255)
+}
+
+.a {
+     background-color: aqua;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 5px;
+     left: 5px;
+     z-index: 1;
+}
+
+.b {
+     background-color: aquamarine;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 65px;
+     left: 89px;
+     z-index: 2;
+}
+
+.c {
+     background-color: black;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 143px;
+     left: 191px;
+     z-index: 3;
+}
+
+.d {
+     background-color: yellowgreen;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 235px;
+     left: 297px;
+     z-index: 4;
+}
+
+.e {
+     background-color: yellow;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 318px;
+     left: 395px;
+     z-index: 5;
+}
+
+.f {
+     background-color: violet;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 393px;
+     left: 511px;
+     z-index: 6;
+}
+
+.g {
+     background-color: tomato;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 467px;
+     left: 609px;
+     z-index: 7;
+}
+
+.h {
+     background-color: teal;
+     height: 250px;
+     width: 250px;
+     position: absolute;
+     top: 535px;
+     left: 700px;
+     z-index: 8;
+}
