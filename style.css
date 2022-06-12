@@ -3,14 +3,16 @@
      margin: 0;
 }
 
-.stairbox {
-     color: rgb(249, 252, 255)
+.stairbox>div {
+     color: rgb(249, 252, 255);
+     display: inline-block;
+     height: 250px;
+     width: 250px;
 }
 
 .a {
      background-color: aqua;
-     height: 250px;
-     width: 250px;
+
      position: absolute;
      top: 5px;
      left: 5px;
@@ -19,8 +21,7 @@
 
 .b {
      background-color: aquamarine;
-     height: 250px;
-     width: 250px;
+
      position: absolute;
      top: 65px;
      left: 89px;
@@ -29,8 +30,6 @@
 
 .c {
      background-color: black;
-     height: 250px;
-     width: 250px;
      position: absolute;
      top: 143px;
      left: 191px;
@@ -39,8 +38,6 @@
 
 .d {
      background-color: yellowgreen;
-     height: 250px;
-     width: 250px;
      position: absolute;
      top: 235px;
      left: 297px;
@@ -49,8 +46,6 @@
 
 .e {
      background-color: yellow;
-     height: 250px;
-     width: 250px;
      position: absolute;
      top: 318px;
      left: 395px;
@@ -59,8 +54,6 @@
 
 .f {
      background-color: violet;
-     height: 250px;
-     width: 250px;
      position: absolute;
      top: 393px;
      left: 511px;
@@ -69,8 +62,6 @@
 
 .g {
      background-color: tomato;
-     height: 250px;
-     width: 250px;
      position: absolute;
      top: 467px;
      left: 609px;
@@ -79,10 +70,147 @@
 
 .h {
      background-color: teal;
-     height: 250px;
-     width: 250px;
      position: absolute;
      top: 535px;
      left: 700px;
      z-index: 8;
+}
+
+/* .stob{
+     padding-top: 20px;
+     padding-bottom:1000px;
+     color: white;
+} */
+.stob>div {
+     color: rgb(255, 255, 255);
+     display: inline-block;
+     height: 180px;
+}
+
+.i {
+     background-color: rgb(28, 54, 33);
+     position: absolute;
+     top: 1000px;
+     left: 480px;
+     z-index: 8;
+     width: 700px;
+}
+
+.j {
+     background-color: rgb(126, 14, 107);
+     position: absolute;
+     top: 1110px;
+     left: 566px;
+     z-index: 8;
+     width: 530px;
+}
+
+.k {
+     background-color: rgb(107, 77, 20);
+     position: absolute;
+     top: 1230px;
+     left: 650px;
+     z-index: 8;
+     width: 370px;
+}
+
+.l {
+     background-color: rgb(255, 0, 0);
+     position: absolute;
+     top: 1350px;
+     left: 730px;
+     z-index: 8;
+     width: 200px;
+}
+
+
+
+
+
+.btos>div {
+     color: rgb(255, 255, 255);
+     display: inline-block;
+     height: 180px;
+}
+
+.m {
+     background-color: rgb(28, 54, 33);
+     position: absolute;
+     top: 2140px;
+     left: 730px;
+     z-index: 8;
+     width: 200px;
+}
+
+.n {
+     background-color: rgb(126, 14, 107);
+     position: absolute;
+     top: 2260px;
+     left: 650px;
+     z-index: 8;
+     width: 370px;
+}
+
+.o {
+     background-color: rgb(107, 77, 20);
+     position: absolute;
+     top: 2380px;
+     left: 570px;
+     z-index: 8;
+     width: 530px;
+}
+
+.p {
+     background-color: rgb(255, 0, 0);
+     position: absolute;
+     top: 2510px;
+     left: 480px;
+     z-index: 8;
+     width: 700px;
+}
+
+
+
+
+.sq4>div {
+     color: rgb(255, 255, 255);
+     display: inline-block;
+     height: 250px;
+     width: 250px;
+}
+
+.q {
+     background-color: rgb(28, 54, 33);
+     position: absolute;
+     top: 3140px;
+     left: 730px;
+     z-index: 10;
+   
+}
+
+.r {
+     background-color: rgb(126, 14, 107);
+     position: absolute;
+     top: 3300px;
+     left: 570px;
+     z-index: 8;
+   
+}
+
+.s {
+     background-color: rgb(107, 77, 20);
+     position: absolute;
+     top: 3460px;
+     left: 730px;
+     z-index: 6;
+ 
+}
+
+.t {
+     background-color: rgb(255, 0, 0);
+     position: absolute;
+     top: 3300px;
+     left: 890px;
+     z-index: 4;
+    
 }
